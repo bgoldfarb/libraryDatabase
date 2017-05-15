@@ -1,0 +1,50 @@
+
+body {
+	padding-bottom: 50px;
+	padding-top: 10px;
+	background-color: beige;
+	font-size: 95%;
+	font: bold;
+}
+
+.OrderNumsAndMarketCode {
+	font: bold;
+	font-family: 'Roboto Slab',serif;
+	font-weight: 800;
+	position: relative;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 15px;
+}
+
+.EntityOrderStatus {
+	color: black;
+	font-family: 'Roboto Slab',serif;
+	font-size: 79%;
+	text-indent: 200px;
+
+}
+
+#contents{
+	font-family: 'Roboto Slab',serif;
+}
+
+.ErrorMessage{
+	color:red;
+	font-style:bold;
+}
+.monarchHeader, .orderCreateHeader, .orderValidateHeader, .orderVerifyHeader,
+.orderSourceHeader, .orderCancelHeader, .orderReleaseHeader, .orderCompleteHeader {
+	 cursor: pointer; cursor: hand;
+}
+
+.monarchHeader:hover, .orderCreateHeader:hover,.orderValidateHeader:hover, .orderVerifyHeader:hover,
+.orderSourceHeader:hover, .orderCancelHeader:hover, .orderReleaseHeader:hover, .orderCompleteHeader:hover {
+	background-color:#f4f5fc;
+}
